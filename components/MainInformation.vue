@@ -26,29 +26,21 @@
           </a>
         </div>
       </div>
-      <div class="main-navigation-card">
-        <nuxt-link to='/portfolio'>
-          <span>Portfolio</span>
-        </nuxt-link>
-
-        <nuxt-link to='/resume'>
-          <span>Resume</span>
-        </nuxt-link>
-
-        <nuxt-link to='/contact'>
-          <span>Contact</span>
-        </nuxt-link>
+      <div class="main-navigation">
+        <navigation />
       </div>
   </div>
 </template>
 
 <script>
 import Particles from './Particles'
+import Navigation from './Navigation'
 
 export default {
   components: {
     // Internal:
-    Particles
+    Particles,
+    Navigation
   }
 }
 </script>
@@ -96,7 +88,7 @@ export default {
       }
     }
   }
-  .main-navigation-card {
+  .main-navigation {
     position: absolute;
     bottom: 0;
     margin-bottom: 60px;
