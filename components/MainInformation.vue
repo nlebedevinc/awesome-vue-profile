@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="main-navigation">
-        <navigation />
+        <navigation white-label="true" class="main-information-navigation"/>
       </div>
   </div>
 </template>

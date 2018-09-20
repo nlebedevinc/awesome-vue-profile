@@ -1,15 +1,15 @@
 <template>
   <section class="container">
-    <navigation />
+    <header-logo />
   </section>
 </template>
 
 <script>
-import Navigation from '~/components/Navigation'
+import HeaderLogo from '~/components/Header'
 
 export default {
   components: {
-    Navigation
+    HeaderLogo
   }
 }
 </script>
