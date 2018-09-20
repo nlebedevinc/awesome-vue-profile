@@ -1,6 +1,6 @@
 <template>
   <div class="logo__component">
-    <h1>Nikolay Lebedev</h1>
+    <h1 class="logo-main">Nikolay Lebedev</h1>
     <div>Software Developer</div>
   </div>
 </template>
@@ -12,7 +12,9 @@
 </script>
 
 <style lang="scss">
-.info__component {
-  padding: 15px;
+.logo__component {
+  .logo-main {
+    margin-bottom: 0;
+  }
 }
 </style>

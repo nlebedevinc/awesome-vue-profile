@@ -1,7 +1,7 @@
 <template>
   <div class="header__component ">
-    <logo />
-    <navigation />
+    <logo class="header-logo"/>
+    <navigation class="header-navigation"/>
   </div>
 </template>
 
@@ -19,6 +19,11 @@
 
 <style lang="scss">
 .header__component {
-  padding: 15px;
+  .header-logo {
+    float: left;
+  }
+  .header-navigation {
+    float: right;
+  }
 }
 </style>

@@ -13,3 +13,15 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  @media only screen and (min-device-width : 850px) {
+    max-width: 850px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+</style>
