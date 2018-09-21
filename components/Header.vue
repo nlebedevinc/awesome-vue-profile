@@ -1,7 +1,9 @@
 <template>
   <div class="header__component ">
     <logo class="header-logo"/>
-    <navigation class="header-navigation"/>
+    <div class="header-navigation">
+      <navigation />
+    </div>
   </div>
 </template>
 
@@ -23,6 +25,7 @@
     float: left;
   }
   .header-navigation {
+    margin-top: 15px;
     float: right;
   }
 }
