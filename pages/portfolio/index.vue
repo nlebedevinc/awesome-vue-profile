@@ -2,7 +2,7 @@
   <section class="container">
     <header-logo />
     <div class="content">
-      <project-list />
+      <project-list v-bind:list="projects"/>
     </div>
   </section>
 </template>
@@ -10,8 +10,33 @@
 <script>
 import HeaderLogo from '~/components/Header'
 import ProjectList from '~/components/ProjectList'
+import { mapState } from 'vuex'
+// import axios from 'axios'
 
 export default {
+  fetch ({ store }) {
+    // return axios.get('http://localhost:3030/v1/projects/list')
+    //   .then(res => {
+    //     store.commit('projects', res.data)
+    //   })
+    store.commit('init', [
+      {
+        id: 1,
+        title: 'First'
+      },
+      {
+        id: 2,
+        title: 'Second'
+      },
+      {
+        id: 3,
+        title: 'Third'
+      }
+    ])
+  },
+  computed: mapState([
+    'projects'
+  ]),
   components: {
     HeaderLogo,
     ProjectList

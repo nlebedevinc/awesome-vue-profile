@@ -1,15 +1,9 @@
 <template>
   <div class="projects__component ">
     <div class="container">
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
-      <project-card />
+      <div v-for="project in list">
+        <project-card v-bind:project="project" />
+      </div>
     </div>
   </div>
 </template>
@@ -18,6 +12,7 @@
 import ProjectCard from './ProjectCard'
 export default {
   name: 'vue-project-list',
+  props: ['list'],
   components: {
     ProjectCard
   }
