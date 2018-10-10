@@ -1,7 +1,7 @@
 <template>
   <div class="projects__component ">
     <div class="container">
-      <div v-for="project in list">
+      <div v-for="project in list" :key="project.id">
         <project-card v-bind:project="project" />
       </div>
     </div>
