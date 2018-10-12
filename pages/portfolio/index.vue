@@ -48,8 +48,8 @@ export default {
 .container {
   margin: 0 auto;
   padding: 15px;
-  @media only screen and (min-device-width : 850px) {
-    max-width: 950px;
+  @media only screen and (min-device-width : 1200px) {
+    max-width: 1100px;
     margin-top: 20px;
     margin-bottom: 20px;
   }

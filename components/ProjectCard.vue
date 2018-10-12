@@ -4,11 +4,12 @@
       <div class="card">
         <div class="image-container">
           <img
-            src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16"
+            src="https://www.aks.ua/images/products/9956580dedf73c949ef4493b0032f1f4_large.jpg"
             alt=""/>
         </div>
         <div class="card-info">
-          <span>{{project.title}}</span>
+          <h3>{{project.title}}</h3>
+          <span>JavaScript | Node | CSS</span>
         </div>
       </div>
     </nuxt-link>
@@ -25,22 +26,30 @@
 
 <style lang="scss">
 .projectcard__component {
+  width: 345px;
+  min-height: 350px;
+  padding: 10px;
+
+  .navigation-link {
+    text-decoration: none;
+    color: #000;
+  }
+
   .card {
-    width: 250px;
-    min-height: 285px;
-    border: 1px solid gray;
-    padding: 10px;
-    margin: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 40px 0 rgba(133,157,183,.12);
+    .card-info {
+      padding: 20px;
+    }
   }
 
   .image-container {
-    min-height: 240px;
+    max-height: 250px;
+    overflow: hidden;
   }
 
   img {
-    border-radius: 50%;
-    width: 70px;
-    margin: 10px;
+    max-height: 300px;
   }
 }
 </style>

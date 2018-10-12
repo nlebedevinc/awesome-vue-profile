@@ -5,9 +5,8 @@ import mutations from './mutations'
 Vue.use(Vuex)
 
 const store = () => new Vuex.Store({
-
   state: {
-    counter: 0
+    projects: []
   },
   mutations
 })
