@@ -1,6 +1,6 @@
 <template>
   <div class="projectcard__component ">
-    <nuxt-link class="navigation-link" to='/portfolio'>
+    <nuxt-link class="navigation-link" v-bind:to='/project/ + project.id'>
       <div class="card">
         <div class="image-container">
           <img

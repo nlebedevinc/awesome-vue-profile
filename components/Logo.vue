@@ -13,7 +13,7 @@
 
 <style lang="scss">
 .logo__component {
-  padding-left: 30px;
+  padding-left: 10px;
 
   .logo-main {
     margin-bottom: 0;

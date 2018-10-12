@@ -23,7 +23,8 @@
 
 <style lang="scss">
 .navigation__component {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   .navigation-link {
     padding-right: 15px;

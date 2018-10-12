@@ -1,15 +1,25 @@
 <template>
   <section class="container">
-    <navigation />
+    <header-logo />
+    <div class="content">
+    </div>
   </section>
 </template>
 
 <script>
-import Navigation from '~/components/Navigation'
+import HeaderLogo from '~/components/Header'
 
 export default {
   components: {
-    Navigation
+    HeaderLogo
   }
 }
 </script>
+
+<style lang="scss">
+.content {
+  border: 1px solid #000;
+  height: 20px;
+}
+
+</style>

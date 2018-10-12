@@ -47,9 +47,10 @@ export default {
 <style lang="scss">
 .container {
   margin: 0 auto;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   @media only screen and (min-device-width : 1200px) {
-    max-width: 1100px;
+    max-width: 1035px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
