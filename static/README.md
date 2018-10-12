@@ -1,7 +1,7 @@
-# sobolevn.github.io
+# nlebedevinc.github.io
 
-> sobolevn's personal page
+> nlebedevinc's personal page
 
-![sobolevn's personal page](https://raw.githubusercontent.com/sobolevn/sobolevn.github.io/master/preview.png)
+![nlebedevinc's personal page]()
 
-Full readme is available here: https://github.com/sobolevn/sobolevn.github.io/tree/nuxt (`nuxt` is the default branch)
+Full readme is available here:
