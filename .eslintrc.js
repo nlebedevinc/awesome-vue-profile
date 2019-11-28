@@ -2,12 +2,17 @@ const ignorePattern = '^_'
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   env: {
     browser: true,
     node: true
   },
-  extends: 'standard',
+  extends: [
+    'eslint:recommended',
+    'plugin:vue/recommended'
+  ],
   // required to lint *.vue files
   plugins: [
     'html'
